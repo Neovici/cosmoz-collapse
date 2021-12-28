@@ -1,6 +1,6 @@
 {
 	"name": "@neovici/cosmoz-collapse",
-	"version": "1.5.2",
+	"version": "1.0.0",
 	"description": "A simple dropdown web component",
 	"keywords": [
 		"lit-html",
