@@ -16,19 +16,19 @@
 	},
 	"license": "Apache-2.0",
 	"author": "",
-	"main": "src/index.js",
+	"main": "dist/index.js",
 	"directories": {
 		"test": "test"
 	},
 	"scripts": {
-		"lint": "eslint --cache --ext .js .",
-		"lint-tsc": "tsc",
+		"lint": "tsc && eslint --cache .",
+		"build": "tsc -p tsconfig.build.json",
 		"start": "wds",
 		"test": "wtr --coverage",
 		"test:watch": "wtr --watch",
+		"prepare": "husky install",
 		"storybook:build": "build-storybook",
-		"storybook:deploy": "storybook-to-ghpages",
-		"prepare": "husky install"
+		"storybook:deploy": "storybook-to-ghpages"
 	},
 	"release": {
 		"plugins": [
@@ -46,23 +46,28 @@
 		"access": "public"
 	},
 	"files": [
-		"src/*.js"
+		"dist/"
 	],
 	"commitlint": {
 		"extends": [
 			"@commitlint/config-conventional"
 		]
 	},
-	"dependencies": {},
+	"exports": {
+		".": "./dist/index.js",
+		"./toggle": "./dist/toggle.js",
+		"./toggle.js": "./dist/toggle.js"
+
+	},
 	"devDependencies": {
-		"@commitlint/cli": "^13.0.0",
-		"@commitlint/config-conventional": "^13.0.0",
-		"@neovici/eslint-config": "^1.2.0",
+		"@commitlint/cli": "^17.0.0",
+		"@commitlint/config-conventional": "^17.0.0",
+		"@neovici/cfg": "^1.20.1",
 		"@semantic-release/changelog": "^6.0.0",
 		"@semantic-release/git": "^10.0.0",
-		"husky": "^7.0.0",
+		"husky": "^8.0.0",
 		"prettier": "^2.5.1",
-		"semantic-release": "^18.0.0",
+		"semantic-release": "^19.0.0",
 		"typescript": "^4.0.0"
 	}
 }
