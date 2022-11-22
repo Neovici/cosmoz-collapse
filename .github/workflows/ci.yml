@@ -31,6 +31,9 @@ jobs:
     - name: ESLint
       run: npm run lint
 
+    - name: Build
+      run: npm run build
+
     - name: Semantic release
       run: npx semantic-release
       if: success()
