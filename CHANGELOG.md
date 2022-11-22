@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/neovici/cosmoz-collapse/compare/v1.2.0...v1.2.1) (2022-11-22)
+
+
+### Bug Fixes
+
+* build release ([d045329](https://github.com/neovici/cosmoz-collapse/commit/d0453294189a5e077599d7e0aba404ba4584b460))
+
 ## [1.2.0](https://github.com/neovici/cosmoz-collapse/compare/v1.1.0...v1.2.0) (2022-11-22)
 
 
