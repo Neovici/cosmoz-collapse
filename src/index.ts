@@ -1,1 +1,2 @@
-import './cosmoz-collapse';
+export * from  './cosmoz-collapse';
+export * from './toggle';
