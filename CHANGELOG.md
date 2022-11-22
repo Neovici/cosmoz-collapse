@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/neovici/cosmoz-collapse/compare/v1.2.1...v1.3.0) (2022-11-22)
+
+
+### Features
+
+* adjust exports ([42843c6](https://github.com/neovici/cosmoz-collapse/commit/42843c669a7649b600f52622fa28caf7834125f7))
+
 ## [1.2.1](https://github.com/neovici/cosmoz-collapse/compare/v1.2.0...v1.2.1) (2022-11-22)
 
 
