@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/neovici/cosmoz-collapse/compare/v1.1.0...v1.2.0) (2022-11-22)
+
+
+### Features
+
+* **toggle:** implement dynamic toggle size function ([2c663f0](https://github.com/neovici/cosmoz-collapse/commit/2c663f09a4ec6816ca2cc417bd873bb897511889))
+
 ## [1.1.0](https://github.com/neovici/cosmoz-collapse/compare/v1.0.0...v1.1.0) (2021-12-28)
 
 

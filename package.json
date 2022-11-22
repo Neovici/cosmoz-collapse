@@ -1,6 +1,6 @@
 {
 	"name": "@neovici/cosmoz-collapse",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "A simple dropdown web component",
 	"keywords": [
 		"lit-html",
@@ -57,7 +57,6 @@
 		".": "./dist/index.js",
 		"./toggle": "./dist/toggle.js",
 		"./toggle.js": "./dist/toggle.js"
-
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.0.0",
