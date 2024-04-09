@@ -10,7 +10,7 @@ export const toggleSize =
 		opts?: Partial<KeyframeAnimationOptions>
 	) => {
 		const maxSizeProp = 'max' + prop.charAt(0).toUpperCase() + prop.slice(1);
-		Object.assign(el.style, { [maxSizeProp]: '', display: 'block' });
+		Object.assign(el.style, { [maxSizeProp]: '', display: '' });
 		const { [prop]: size } = el.getBoundingClientRect(),
 			kf = [0, size],
 			[from, to] = visible ? kf : kf.slice().reverse(),

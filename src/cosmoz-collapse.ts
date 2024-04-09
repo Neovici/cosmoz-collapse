@@ -1,5 +1,9 @@
 import { toggleSize } from './toggle';
 
+const reset = (el: HTMLElement, visible?: boolean) => {
+	Object.assign(el.style, { display: visible ? '' : 'none' });
+};
+
 class Collapse extends HTMLElement {
 	static get observedAttributes() {
 		return ['opened'];
@@ -9,16 +13,26 @@ class Collapse extends HTMLElement {
 
 	constructor() {
 		super();
-		Object.assign(this.style, { display: 'none', overflow: 'hidden' });
+		const sheet = new CSSStyleSheet();
+		sheet.replaceSync(`
+      :host { display: block; overflow: hidden; }
+		`);
+		const shadow = this.attachShadow({ mode: 'open' });
+		shadow.appendChild(document.createElement('slot'));
+		shadow.adoptedStyleSheets = [sheet];
 	}
 
-	attributeChangedCallback(name: string, prevValue?: unknown, value?: unknown) {
+	connectedCallback() {
+		reset(this, this.getAttribute('opened') != null);
+	}
+
+	attributeChangedCallback(name: string, prev?: unknown, value?: unknown) {
 		switch (name) {
 			case 'opened': {
 				const visible = value != null;
 				return this.isConnected
 					? this.toggle(this, visible)
-					: Object.assign(this.style, { display: visible ? '' : 'none' });
+					: reset(this, visible);
 			}
 		}
 	}
