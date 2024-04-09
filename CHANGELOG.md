@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/neovici/cosmoz-collapse/compare/v1.3.0...v1.4.0) (2024-04-09)
+
+
+### Features
+
+* **collapse:** use default display block ([dff05b8](https://github.com/neovici/cosmoz-collapse/commit/dff05b8a6fd53f278c29aa24181087c2f4c84f2a))
+
 ## [1.3.0](https://github.com/neovici/cosmoz-collapse/compare/v1.2.1...v1.3.0) (2022-11-22)
 
 
