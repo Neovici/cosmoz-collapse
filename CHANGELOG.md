@@ -1,3 +1,18 @@
+## [1.5.0](https://github.com/neovici/cosmoz-collapse/compare/v1.4.0...v1.5.0) (2024-04-11)
+
+
+### Features
+
+* add Basic story for collapse ([c406214](https://github.com/neovici/cosmoz-collapse/commit/c406214435f27ceeb3fdb27c81f61c5c86568312))
+* add storybook configs ([98857f9](https://github.com/neovici/cosmoz-collapse/commit/98857f9c485cefd43f1a191acce3b55dd9976fad))
+* add storybook dependencies ([c5c4b35](https://github.com/neovici/cosmoz-collapse/commit/c5c4b357fc38595781065e9966c94ebe52652732))
+* add storybook-static dir to .gitignore ([320a1bb](https://github.com/neovici/cosmoz-collapse/commit/320a1bbdc548479f9f7fc2f8995a69483cbaddea))
+
+
+### Bug Fixes
+
+* make the `IMinimatch` error go away ([21241e2](https://github.com/neovici/cosmoz-collapse/commit/21241e261ae583b308220e992321437cfdc9359b))
+
 ## [1.4.0](https://github.com/neovici/cosmoz-collapse/compare/v1.3.0...v1.4.0) (2024-04-09)
 
 
