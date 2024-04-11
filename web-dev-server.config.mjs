@@ -1,6 +1,6 @@
-import { storybookPlugin } from '@web/dev-server-storybook';
+import cfg from '@neovici/cfg/web/dev-server.mjs';
 
 export default {
-	plugins: [storybookPlugin({ type: 'web-components' })],
-	nodeResolve: true
+	...cfg,
+	plugins: [...cfg.plugins],
 };
