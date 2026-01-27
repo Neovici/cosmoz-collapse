@@ -6,13 +6,13 @@
 		"lit-html",
 		"web-components"
 	],
-	"homepage": "https://github.com/neovici/cosmoz-collapse#readme",
+	"homepage": "https://github.com/Neovici/cosmoz-collapse#readme",
 	"bugs": {
-		"url": "https://github.com/neovici/cosmoz-collapse/issues"
+		"url": "https://github.com/Neovici/cosmoz-collapse/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/neovici/cosmoz-collapse.git"
+		"url": "git+https://github.com/Neovici/cosmoz-collapse.git"
 	},
 	"license": "Apache-2.0",
 	"author": "",
