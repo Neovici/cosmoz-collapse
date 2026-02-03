@@ -57,12 +57,7 @@
 		]
 	},
 	"exports": {
-		".": "./dist/index.js",
-		"./toggle": "./dist/toggle.js",
-		"./toggle.js": "./dist/toggle.js"
-	},
-	"dependencies": {
-		"lit-html": "^2.0.0 || ^3.0.0"
+		".": "./dist/index.js"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.0.0",

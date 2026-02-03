@@ -1,2 +1,1 @@
-export * from  './cosmoz-collapse';
-export * from './toggle';
+export * from './cosmoz-collapse';
