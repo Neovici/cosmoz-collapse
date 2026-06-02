@@ -15,7 +15,7 @@ class Collapse extends HTMLElement {
 		super();
 		const sheet = new CSSStyleSheet();
 		sheet.replaceSync(`
-      :host { display: block; overflow: hidden; }
+      :host { display: block; }
 		`);
 		const shadow = this.attachShadow({ mode: 'open' });
 		shadow.appendChild(document.createElement('slot'));
