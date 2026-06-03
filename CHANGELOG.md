@@ -1,3 +1,12 @@
+## 1.6.0 (2026-06-03)
+
+* fix: repository URL case sensitivity ([c4f93bf](https://github.com/Neovici/cosmoz-collapse/commit/c4f93bf))
+* fix: upgrade semantic-release to v25 for OIDC trusted publishing (#11) ([98a45f7](https://github.com/Neovici/cosmoz-collapse/commit/98a45f7)), closes [#11](https://github.com/Neovici/cosmoz-collapse/issues/11)
+* chore(deps): update cfg (#10) ([f68d7c4](https://github.com/Neovici/cosmoz-collapse/commit/f68d7c4)), closes [#10](https://github.com/Neovici/cosmoz-collapse/issues/10)
+* feat: add duplicate web component check (#7) ([9701392](https://github.com/Neovici/cosmoz-collapse/commit/9701392)), closes [#7](https://github.com/Neovici/cosmoz-collapse/issues/7)
+* feat: remove overflow (#9) ([5bae5a0](https://github.com/Neovici/cosmoz-collapse/commit/5bae5a0)), closes [#9](https://github.com/Neovici/cosmoz-collapse/issues/9)
+* ci: add id-token permission for npm trusted publishing (#5) ([f8336b9](https://github.com/Neovici/cosmoz-collapse/commit/f8336b9)), closes [#5](https://github.com/Neovici/cosmoz-collapse/issues/5)
+
 ## [1.5.0](https://github.com/neovici/cosmoz-collapse/compare/v1.4.0...v1.5.0) (2024-04-11)
 
 
